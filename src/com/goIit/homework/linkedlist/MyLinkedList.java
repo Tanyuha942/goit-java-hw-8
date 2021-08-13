@@ -46,6 +46,7 @@ class MyLinkedList<E> extends AbstractCollection<Object> implements Serializable
   }
 
   Object unlink(Node<Object> x) {
+
     Object element = x.item;
     Node<Object> next = x.next;
     Node<Object> prev = x.prev;
@@ -63,7 +64,6 @@ class MyLinkedList<E> extends AbstractCollection<Object> implements Serializable
       next.prev = prev;
       x.next = null;
     }
-
     x.item = null;
     size--;
     return element;
@@ -121,7 +121,7 @@ class MyLinkedList<E> extends AbstractCollection<Object> implements Serializable
     return size;
   }
 }
-
+// класс односвязной Node
 class Node<Object> {
 
   Object item;

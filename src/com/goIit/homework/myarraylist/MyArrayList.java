@@ -6,7 +6,7 @@ public class MyArrayList<E> {
 
   private static final int DEFAULT_CAPACITY = 10;
   private static final Object[] DEFAULT_CAPACITY_EMPTY_ELEMENT_DATA = {};
-  transient Object[] elementData = new Object[0];
+  Object[] elementData = new Object[0];
   private int size;
 
   private Object[] grow(int minCapacity) {

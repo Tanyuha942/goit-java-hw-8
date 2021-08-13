@@ -10,12 +10,14 @@ class MyStack<E> extends MyArrayList<E> {
     return value;
   }
 
+// peek() возвращает первый элемент в стеке (LIFO)
   public Object peek() {
     if (size() == 0)
       throw new EmptyStackException();
     return get(size() - 1);
   }
 
+// pop() возвращает первый элемент в стеке и удаляет его из коллекции (LIFO)
   public Object pop() {
     if (size() == 0)
       throw new EmptyStackException();

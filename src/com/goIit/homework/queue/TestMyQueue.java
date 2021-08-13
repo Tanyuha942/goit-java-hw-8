@@ -4,8 +4,8 @@ public class TestMyQueue {
 
   public static void main(String[] args) {
 
+//  класс MyQueue аналог класса Queue, который работает по принципу FIFO (first-in-first-out)
     MyQueue<Integer> myQueue = new MyQueue<>();
-
     myQueue.add(1);
     myQueue.add(2);
     myQueue.add(3);

@@ -4,6 +4,7 @@ public class TestMyStack {
 
   public static void main(String[] args) {
 
+//  класс MyStack аналог класса Stack, который работает по принципу LIFO (last-in-first-out).
     MyStack<Integer> myStack = new MyStack<>();
     myStack.push(1);
     myStack.push(2);

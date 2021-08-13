@@ -3,6 +3,8 @@ package com.goIit.homework.linkedlist;
 public class TestMyLinkedList {
 
   public static void main(String[] args) {
+
+//    MyArrayList аналог классу ArrayList
     MyLinkedList<String> myLinkedList = new MyLinkedList<>();
     myLinkedList.add("Peter");
     myLinkedList.add("Vasiliy");
@@ -18,6 +20,5 @@ public class TestMyLinkedList {
 
     myLinkedList.clear();
     System.out.println(myLinkedList);
-
   }
 }

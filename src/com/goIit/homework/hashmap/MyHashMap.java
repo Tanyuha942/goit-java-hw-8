@@ -129,7 +129,7 @@ class MyHashMap<K,V> {
     }
     return newTab;
   }
-
+// класс односвязной Node
   private Node<K,V> removeNode(int hash, Object key) {
 
     Node<K,V>[] tab;

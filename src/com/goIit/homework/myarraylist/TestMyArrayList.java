@@ -4,6 +4,7 @@ public class TestMyArrayList {
 
   public static void main(String[] args) {
 
+//  класс MyArrayList как аналог классу ArrayList
     MyArrayList<String> myArrayList = new MyArrayList<>();
     myArrayList.add("Tom");
     myArrayList.add("Alice");

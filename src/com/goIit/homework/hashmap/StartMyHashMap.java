@@ -1,11 +1,10 @@
 package com.goIit.homework.hashmap;
 
-import java.util.HashMap;
-
 public class StartMyHashMap {
 
   public static void main(String[] args) {
 
+//  MyHashMap аналог классу HashMap
     MyHashMap<Integer, String> hashMap = new MyHashMap<>();
     hashMap.put(1, "First");
     hashMap.put(2, "Second");
